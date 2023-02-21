@@ -27,7 +27,7 @@ public class EmployerController {
         if (errors.hasErrors()) {
             return "employers/add";
         }
-
+//        model.addAttribute("newEmployer", newEmployer);
         return "redirect:";
     }
 
