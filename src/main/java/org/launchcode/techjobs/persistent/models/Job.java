@@ -8,6 +8,7 @@ import java.util.List;
 public class Job extends AbstractEntity{
 
     @ManyToOne
+    @JoinColumn
     private Employer employer;
 
     @ManyToMany
